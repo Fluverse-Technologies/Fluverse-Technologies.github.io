@@ -1,0 +1,29 @@
+# Fluverse Technologies
+
+> Fluverse Technologies is a software and digital solutions company headquartered in Silvassa (Dadra and Nagar Haveli and Daman and Diu, India). It builds custom software, Flutter mobile apps (Android and iOS), business websites, and provides SEO, GEO, AI automation, UI/UX and cloud deployment for businesses in Silvassa, Vapi, Valsad, Surat, Ahmedabad, Vadodara, across Gujarat and in Mumbai. Founded by Vikas Upadhyay, Senior Flutter Developer.
+
+- Head office: Flat No. 202, Silvassa Complex, Silvassa – 396230, India
+- Phone / WhatsApp: +91 91735 62091
+- Email: vikasupadhyay221@gmail.com
+- Languages: English, Hindi
+- Founder profile: https://vikasup.github.io/
+
+## Services
+
+- [Mobile App Development](https://fluverse-technologies.github.io/mobile-app-development/): Android and iOS apps built with Flutter, from planning to Play Store / App Store release
+- [Flutter Development](https://fluverse-technologies.github.io/flutter-development/): Cross-platform Flutter and Dart engineering, BLoC, Firebase, REST APIs
+- [iOS App Development](https://fluverse-technologies.github.io/ios-development/): iPhone and iPad apps, Apple integrations, App Store preparation
+- [Android App Development](https://fluverse-technologies.github.io/android-development/): Android apps and Google Play deployment
+- [Software Development](https://fluverse-technologies.github.io/software-development/): Custom business software, APIs, dashboards and integrations
+- [Website Development](https://fluverse-technologies.github.io/web-development/): Fast, responsive business websites and landing pages
+- [SEO & GEO Services](https://fluverse-technologies.github.io/seo-services/): Technical SEO, local SEO and optimisation for AI search (ChatGPT, Perplexity, Google AI Overviews)
+
+## Locations served
+
+- [Software Company in Silvassa](https://fluverse-technologies.github.io/software-company-silvassa/)
+- [Software Company in Gujarat](https://fluverse-technologies.github.io/software-company-gujarat/)
+- [Software Company in Mumbai](https://fluverse-technologies.github.io/software-company-mumbai/)
+
+## Work
+
+- [Portfolio](https://fluverse-technologies.github.io/portfolio/): Selected client projects and products
