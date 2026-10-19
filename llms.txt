@@ -18,6 +18,10 @@
 - [Website Development](https://fluverse-technologies.github.io/web-development/): Fast, responsive business websites and landing pages
 - [SEO & GEO Services](https://fluverse-technologies.github.io/seo-services/): Technical SEO, local SEO and optimisation for AI search (ChatGPT, Perplexity, Google AI Overviews)
 
+## Free tools
+
+- [App Development Cost Calculator](https://fluverse-technologies.github.io/app-development-cost-calculator/): Estimate the cost (in INR) and timeline of an Android, iOS or Flutter app by app type, platforms, features, design and backend
+
 ## Locations served
 
 - [Software Company in Silvassa](https://fluverse-technologies.github.io/software-company-silvassa/)
