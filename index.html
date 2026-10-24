@@ -317,7 +317,7 @@ footer{border-top:1px solid var(--line);padding:38px 0;color:var(--muted);font-s
 </div></section>
 <section class="cta" id="contact"><div class="container"><div class="cta-box">
 <div><div class="eyebrow">Let’s work together</div><h2>Have a business idea or digital project?</h2><p>Tell us what you want to build and let’s discuss the right technology solution.</p></div>
-<div><a class="btn primary" href="mailto:vikasupadhyay221@gmail.com">Get a Free Consultation →</a><p style="margin-top:16px"><strong>Head Office:</strong> Flat No. 202, Silvassa Complex, Silvassa, Dadra &amp; Nagar Haveli and Daman &amp; Diu – 396230, India<br><strong>Phone:</strong> <a href="tel:+919173562091">+91 91735 62091</a><br><strong>Business hours:</strong> 10:00 AM – 6:30 PM</p></div>
+<div><div class="actions"><a class="btn primary" href="https://wa.me/919173562091?text=Hello%20Fluverse%2C%20I%20would%20like%20a%20free%20quote%20for%20my%20project.%0AService%3A%20%0ABusiness%20%26%20city%3A%20%0ARequirements%3A%20" target="_blank" rel="noopener noreferrer">Get a Free Quote on WhatsApp →</a><a class="btn secondary" href="tel:+919173562091">Call Fluverse</a><a class="btn secondary" href="mailto:vikasupadhyay221@gmail.com">Email your requirements</a></div><p>Need an app or website for your business in Silvassa or Vapi? Share your requirements on WhatsApp, then tap Send to contact us.</p><p style="margin-top:16px"><strong>Head Office:</strong> Flat No. 202, Silvassa Complex, Silvassa, Dadra &amp; Nagar Haveli and Daman &amp; Diu – 396230, India<br><strong>Phone:</strong> <a href="tel:+919173562091">+91 91735 62091</a><br><strong>Business hours:</strong> 10:00 AM – 6:30 PM</p></div>
 </div></div></section>
 </main>
 <section class="faq-section reveal" id="faq">
@@ -355,6 +355,24 @@ document.addEventListener('DOMContentLoaded',()=>{
     },{threshold:.12});
     items.forEach(el=>io.observe(el));
   }else items.forEach(el=>el.classList.add('visible'));
+});
+</script>
+
+<script>
+/* Contact intent only: opening a channel does not confirm a submitted lead.
+   Never include contact details or message text in analytics parameters. */
+document.addEventListener('click', function(event) {
+  const link = event.target.closest && event.target.closest('a[href]');
+  if (!link || typeof window.gtag !== 'function') return;
+  const href = link.getAttribute('href') || '';
+  let channel = '';
+  if (/^https:\/\/wa\.me\//i.test(href)) channel = 'whatsapp';
+  else if (/^tel:/i.test(href)) channel = 'call';
+  else if (/^mailto:/i.test(href)) channel = 'email';
+  if (channel) window.gtag('event', channel + '_click', {
+    contact_channel: channel,
+    transport_type: 'beacon'
+  });
 });
 </script>
 </body>
